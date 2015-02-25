@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07C3052332EF4CA5A32ABBDA /* libPods-StubbleTodoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D892C99D3E240839B2AAB40 /* libPods-StubbleTodoTests.a */; };
+		23DD05E4F8304DACB710A2A8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87DE0B05807B4D38983FA130 /* libPods.a */; };
+		2F67A33019D781E5001923E7 /* SBLTodoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F67A32F19D781E5001923E7 /* SBLTodoTableViewCell.m */; };
+		2F67A33319D783E2001923E7 /* SBLTodoEditableTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F67A33219D783E2001923E7 /* SBLTodoEditableTableViewCell.m */; };
+		2F7DE384198EDF7800F36CA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F7DE383198EDF7800F36CA8 /* Foundation.framework */; };
+		2F7DE386198EDF7800F36CA8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F7DE385198EDF7800F36CA8 /* CoreGraphics.framework */; };
+		2F7DE388198EDF7800F36CA8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F7DE387198EDF7800F36CA8 /* UIKit.framework */; };
+		2F7DE38E198EDF7800F36CA8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F7DE38C198EDF7800F36CA8 /* InfoPlist.strings */; };
+		2F7DE390198EDF7800F36CA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7DE38F198EDF7800F36CA8 /* main.m */; };
+		2F7DE394198EDF7800F36CA8 /* SBLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7DE393198EDF7800F36CA8 /* SBLAppDelegate.m */; };
+		2F7DE39D198EDF7800F36CA8 /* SBLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7DE39C198EDF7800F36CA8 /* SBLViewController.m */; };
+		2F7DE39F198EDF7800F36CA8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F7DE39E198EDF7800F36CA8 /* Images.xcassets */; };
+		2F7DE3A6198EDF7800F36CA8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F7DE3A5198EDF7800F36CA8 /* XCTest.framework */; };
+		2F7DE3A7198EDF7800F36CA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F7DE383198EDF7800F36CA8 /* Foundation.framework */; };
+		2F7DE3A8198EDF7800F36CA8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F7DE387198EDF7800F36CA8 /* UIKit.framework */; };
+		2F7DE3B0198EDF7800F36CA8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F7DE3AE198EDF7800F36CA8 /* InfoPlist.strings */; };
+		2F7DE3B2198EDF7800F36CA8 /* SBLTodoModelTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7DE3B1198EDF7800F36CA8 /* SBLTodoModelTest.m */; };
+		2FBB5B3919DB7E3100CBB1A8 /* SBLTodoConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBB5B3819DB7E3100CBB1A8 /* SBLTodoConstants.m */; };
+		2FBB5B3A19DB7E3100CBB1A8 /* SBLTodoConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBB5B3819DB7E3100CBB1A8 /* SBLTodoConstants.m */; };
+		2FC7BE20198F1C3700645EA8 /* SBLTodoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC7BE1F198F1C3700645EA8 /* SBLTodoView.m */; };
+		2FC7BE23198F1C7800645EA8 /* SBLTodoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC7BE22198F1C7800645EA8 /* SBLTodoModel.m */; };
+		2FC7BE24198F1C7800645EA8 /* SBLTodoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC7BE22198F1C7800645EA8 /* SBLTodoModel.m */; };
+		2FC7BE27198F1CA600645EA8 /* SBLTodoPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC7BE26198F1CA600645EA8 /* SBLTodoPresenter.m */; };
+		2FC7BE28198F1CA600645EA8 /* SBLTodoPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC7BE26198F1CA600645EA8 /* SBLTodoPresenter.m */; };
+		2FC7BE32198F1F7200645EA8 /* SBLTodoPresenterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC7BE31198F1F7200645EA8 /* SBLTodoPresenterTest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F7DE3A9198EDF7800F36CA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F7DE378198EDF7800F36CA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F7DE37F198EDF7800F36CA8;
+			remoteInfo = StubbleTodo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12F6333A31834FA0BA05726E /* Pods-StubbleTodoTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StubbleTodoTests.xcconfig"; path = "Pods/Pods-StubbleTodoTests.xcconfig"; sourceTree = "<group>"; };
+		247A64E5B57D4B3BAB9FB755 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		2F67A32E19D781E5001923E7 /* SBLTodoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBLTodoTableViewCell.h; sourceTree = "<group>"; };
+		2F67A32F19D781E5001923E7 /* SBLTodoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBLTodoTableViewCell.m; sourceTree = "<group>"; };
+		2F67A33119D783E2001923E7 /* SBLTodoEditableTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBLTodoEditableTableViewCell.h; sourceTree = "<group>"; };
+		2F67A33219D783E2001923E7 /* SBLTodoEditableTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBLTodoEditableTableViewCell.m; sourceTree = "<group>"; };
+		2F7DE380198EDF7800F36CA8 /* StubbleTodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StubbleTodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F7DE383198EDF7800F36CA8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2F7DE385198EDF7800F36CA8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2F7DE387198EDF7800F36CA8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2F7DE38B198EDF7800F36CA8 /* StubbleTodo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StubbleTodo-Info.plist"; sourceTree = "<group>"; };
+		2F7DE38D198EDF7800F36CA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2F7DE38F198EDF7800F36CA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F7DE391198EDF7800F36CA8 /* StubbleTodo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StubbleTodo-Prefix.pch"; sourceTree = "<group>"; };
+		2F7DE392198EDF7800F36CA8 /* SBLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBLAppDelegate.h; sourceTree = "<group>"; };
+		2F7DE393198EDF7800F36CA8 /* SBLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBLAppDelegate.m; sourceTree = "<group>"; };
+		2F7DE39B198EDF7800F36CA8 /* SBLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBLViewController.h; sourceTree = "<group>"; };
+		2F7DE39C198EDF7800F36CA8 /* SBLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBLViewController.m; sourceTree = "<group>"; };
+		2F7DE39E198EDF7800F36CA8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2F7DE3A4198EDF7800F36CA8 /* StubbleTodoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StubbleTodoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F7DE3A5198EDF7800F36CA8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2F7DE3AD198EDF7800F36CA8 /* StubbleTodoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StubbleTodoTests-Info.plist"; sourceTree = "<group>"; };
+		2F7DE3AF198EDF7800F36CA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2F7DE3B1198EDF7800F36CA8 /* SBLTodoModelTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SBLTodoModelTest.m; path = StubbleTodoTests/SBLTodoModelTest.m; sourceTree = SOURCE_ROOT; };
+		2FBB5B3719DB7E3100CBB1A8 /* SBLTodoConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBLTodoConstants.h; sourceTree = "<group>"; };
+		2FBB5B3819DB7E3100CBB1A8 /* SBLTodoConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBLTodoConstants.m; sourceTree = "<group>"; };
+		2FC7BE1E198F1C3700645EA8 /* SBLTodoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBLTodoView.h; sourceTree = "<group>"; };
+		2FC7BE1F198F1C3700645EA8 /* SBLTodoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBLTodoView.m; sourceTree = "<group>"; };
+		2FC7BE21198F1C7800645EA8 /* SBLTodoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBLTodoModel.h; sourceTree = "<group>"; };
+		2FC7BE22198F1C7800645EA8 /* SBLTodoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBLTodoModel.m; sourceTree = "<group>"; };
+		2FC7BE25198F1CA600645EA8 /* SBLTodoPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBLTodoPresenter.h; sourceTree = "<group>"; };
+		2FC7BE26198F1CA600645EA8 /* SBLTodoPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBLTodoPresenter.m; sourceTree = "<group>"; };
+		2FC7BE31198F1F7200645EA8 /* SBLTodoPresenterTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBLTodoPresenterTest.m; sourceTree = "<group>"; };
+		7D892C99D3E240839B2AAB40 /* libPods-StubbleTodoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StubbleTodoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87DE0B05807B4D38983FA130 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F7DE37D198EDF7800F36CA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F7DE386198EDF7800F36CA8 /* CoreGraphics.framework in Frameworks */,
+				2F7DE388198EDF7800F36CA8 /* UIKit.framework in Frameworks */,
+				2F7DE384198EDF7800F36CA8 /* Foundation.framework in Frameworks */,
+				23DD05E4F8304DACB710A2A8 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F7DE3A1198EDF7800F36CA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F7DE3A6198EDF7800F36CA8 /* XCTest.framework in Frameworks */,
+				2F7DE3A8198EDF7800F36CA8 /* UIKit.framework in Frameworks */,
+				2F7DE3A7198EDF7800F36CA8 /* Foundation.framework in Frameworks */,
+				07C3052332EF4CA5A32ABBDA /* libPods-StubbleTodoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F7DE377198EDF7800F36CA8 = {
+			isa = PBXGroup;
+			children = (
+				2F7DE389198EDF7800F36CA8 /* StubbleTodo */,
+				2F7DE3AB198EDF7800F36CA8 /* StubbleTodoTests */,
+				2F7DE382198EDF7800F36CA8 /* Frameworks */,
+				2F7DE381198EDF7800F36CA8 /* Products */,
+				247A64E5B57D4B3BAB9FB755 /* Pods.xcconfig */,
+				12F6333A31834FA0BA05726E /* Pods-StubbleTodoTests.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		2F7DE381198EDF7800F36CA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F7DE380198EDF7800F36CA8 /* StubbleTodo.app */,
+				2F7DE3A4198EDF7800F36CA8 /* StubbleTodoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F7DE382198EDF7800F36CA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F7DE383198EDF7800F36CA8 /* Foundation.framework */,
+				2F7DE385198EDF7800F36CA8 /* CoreGraphics.framework */,
+				2F7DE387198EDF7800F36CA8 /* UIKit.framework */,
+				2F7DE3A5198EDF7800F36CA8 /* XCTest.framework */,
+				87DE0B05807B4D38983FA130 /* libPods.a */,
+				7D892C99D3E240839B2AAB40 /* libPods-StubbleTodoTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F7DE389198EDF7800F36CA8 /* StubbleTodo */ = {
+			isa = PBXGroup;
+			children = (
+				2F7DE39E198EDF7800F36CA8 /* Images.xcassets */,
+				2FBB5B3419DB791500CBB1A8 /* model */,
+				2FBB5B3319DB78F400CBB1A8 /* view */,
+				2FBB5B3519DB794100CBB1A8 /* presenter */,
+				2F7DE392198EDF7800F36CA8 /* SBLAppDelegate.h */,
+				2F7DE393198EDF7800F36CA8 /* SBLAppDelegate.m */,
+				2F7DE39B198EDF7800F36CA8 /* SBLViewController.h */,
+				2F7DE39C198EDF7800F36CA8 /* SBLViewController.m */,
+				2FBB5B3719DB7E3100CBB1A8 /* SBLTodoConstants.h */,
+				2FBB5B3819DB7E3100CBB1A8 /* SBLTodoConstants.m */,
+				2F7DE38A198EDF7800F36CA8 /* Supporting Files */,
+			);
+			path = StubbleTodo;
+			sourceTree = "<group>";
+		};
+		2F7DE38A198EDF7800F36CA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F7DE38B198EDF7800F36CA8 /* StubbleTodo-Info.plist */,
+				2F7DE38C198EDF7800F36CA8 /* InfoPlist.strings */,
+				2F7DE38F198EDF7800F36CA8 /* main.m */,
+				2F7DE391198EDF7800F36CA8 /* StubbleTodo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F7DE3AB198EDF7800F36CA8 /* StubbleTodoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F7DE3AC198EDF7800F36CA8 /* Supporting Files */,
+			);
+			path = StubbleTodoTests;
+			sourceTree = "<group>";
+		};
+		2F7DE3AC198EDF7800F36CA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F7DE3AD198EDF7800F36CA8 /* StubbleTodoTests-Info.plist */,
+				2F7DE3AE198EDF7800F36CA8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FBB5B3319DB78F400CBB1A8 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				2F67A33119D783E2001923E7 /* SBLTodoEditableTableViewCell.h */,
+				2F67A33219D783E2001923E7 /* SBLTodoEditableTableViewCell.m */,
+				2F67A32E19D781E5001923E7 /* SBLTodoTableViewCell.h */,
+				2F67A32F19D781E5001923E7 /* SBLTodoTableViewCell.m */,
+				2FC7BE1E198F1C3700645EA8 /* SBLTodoView.h */,
+				2FC7BE1F198F1C3700645EA8 /* SBLTodoView.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		2FBB5B3419DB791500CBB1A8 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				2FC7BE21198F1C7800645EA8 /* SBLTodoModel.h */,
+				2FC7BE22198F1C7800645EA8 /* SBLTodoModel.m */,
+				2F7DE3B1198EDF7800F36CA8 /* SBLTodoModelTest.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		2FBB5B3519DB794100CBB1A8 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				2FC7BE25198F1CA600645EA8 /* SBLTodoPresenter.h */,
+				2FC7BE26198F1CA600645EA8 /* SBLTodoPresenter.m */,
+				2FC7BE31198F1F7200645EA8 /* SBLTodoPresenterTest.m */,
+			);
+			name = presenter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F7DE37F198EDF7800F36CA8 /* StubbleTodo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F7DE3B5198EDF7800F36CA8 /* Build configuration list for PBXNativeTarget "StubbleTodo" */;
+			buildPhases = (
+				CC4ECE8827F2424FB20B5A87 /* Check Pods Manifest.lock */,
+				2F7DE37C198EDF7800F36CA8 /* Sources */,
+				2F7DE37D198EDF7800F36CA8 /* Frameworks */,
+				2F7DE37E198EDF7800F36CA8 /* Resources */,
+				29CE7E725D4647A9A23610BE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StubbleTodo;
+			productName = StubbleTodo;
+			productReference = 2F7DE380198EDF7800F36CA8 /* StubbleTodo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F7DE3A3198EDF7800F36CA8 /* StubbleTodoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F7DE3B8198EDF7800F36CA8 /* Build configuration list for PBXNativeTarget "StubbleTodoTests" */;
+			buildPhases = (
+				E1E26971D6E6467AB321A24E /* Check Pods Manifest.lock */,
+				2F7DE3A0198EDF7800F36CA8 /* Sources */,
+				2F7DE3A1198EDF7800F36CA8 /* Frameworks */,
+				2F7DE3A2198EDF7800F36CA8 /* Resources */,
+				1CBBF15AF07D4D29A56BCD3F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F7DE3AA198EDF7800F36CA8 /* PBXTargetDependency */,
+			);
+			name = StubbleTodoTests;
+			productName = StubbleTodoTests;
+			productReference = 2F7DE3A4198EDF7800F36CA8 /* StubbleTodoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F7DE378198EDF7800F36CA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SBL;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Stubble;
+				TargetAttributes = {
+					2F7DE3A3198EDF7800F36CA8 = {
+						TestTargetID = 2F7DE37F198EDF7800F36CA8;
+					};
+				};
+			};
+			buildConfigurationList = 2F7DE37B198EDF7800F36CA8 /* Build configuration list for PBXProject "StubbleTodo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F7DE377198EDF7800F36CA8;
+			productRefGroup = 2F7DE381198EDF7800F36CA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F7DE37F198EDF7800F36CA8 /* StubbleTodo */,
+				2F7DE3A3198EDF7800F36CA8 /* StubbleTodoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F7DE37E198EDF7800F36CA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F7DE39F198EDF7800F36CA8 /* Images.xcassets in Resources */,
+				2F7DE38E198EDF7800F36CA8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F7DE3A2198EDF7800F36CA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F7DE3B0198EDF7800F36CA8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CBBF15AF07D4D29A56BCD3F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-StubbleTodoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29CE7E725D4647A9A23610BE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC4ECE8827F2424FB20B5A87 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E1E26971D6E6467AB321A24E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F7DE37C198EDF7800F36CA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FBB5B3919DB7E3100CBB1A8 /* SBLTodoConstants.m in Sources */,
+				2F7DE394198EDF7800F36CA8 /* SBLAppDelegate.m in Sources */,
+				2F67A33319D783E2001923E7 /* SBLTodoEditableTableViewCell.m in Sources */,
+				2FC7BE23198F1C7800645EA8 /* SBLTodoModel.m in Sources */,
+				2F67A33019D781E5001923E7 /* SBLTodoTableViewCell.m in Sources */,
+				2F7DE39D198EDF7800F36CA8 /* SBLViewController.m in Sources */,
+				2FC7BE20198F1C3700645EA8 /* SBLTodoView.m in Sources */,
+				2FC7BE27198F1CA600645EA8 /* SBLTodoPresenter.m in Sources */,
+				2F7DE390198EDF7800F36CA8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F7DE3A0198EDF7800F36CA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F7DE3B2198EDF7800F36CA8 /* SBLTodoModelTest.m in Sources */,
+				2FBB5B3A19DB7E3100CBB1A8 /* SBLTodoConstants.m in Sources */,
+				2FC7BE28198F1CA600645EA8 /* SBLTodoPresenter.m in Sources */,
+				2FC7BE32198F1F7200645EA8 /* SBLTodoPresenterTest.m in Sources */,
+				2FC7BE24198F1C7800645EA8 /* SBLTodoModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F7DE3AA198EDF7800F36CA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F7DE37F198EDF7800F36CA8 /* StubbleTodo */;
+			targetProxy = 2F7DE3A9198EDF7800F36CA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F7DE38C198EDF7800F36CA8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F7DE38D198EDF7800F36CA8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2F7DE3AE198EDF7800F36CA8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F7DE3AF198EDF7800F36CA8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F7DE3B3198EDF7800F36CA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F7DE3B4198EDF7800F36CA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F7DE3B6198EDF7800F36CA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 247A64E5B57D4B3BAB9FB755 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StubbleTodo/StubbleTodo-Prefix.pch";
+				INFOPLIST_FILE = "StubbleTodo/StubbleTodo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2F7DE3B7198EDF7800F36CA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 247A64E5B57D4B3BAB9FB755 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StubbleTodo/StubbleTodo-Prefix.pch";
+				INFOPLIST_FILE = "StubbleTodo/StubbleTodo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2F7DE3B9198EDF7800F36CA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12F6333A31834FA0BA05726E /* Pods-StubbleTodoTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StubbleTodo.app/StubbleTodo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StubbleTodo/StubbleTodo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "StubbleTodoTests/StubbleTodoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2F7DE3BA198EDF7800F36CA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12F6333A31834FA0BA05726E /* Pods-StubbleTodoTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StubbleTodo.app/StubbleTodo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StubbleTodo/StubbleTodo-Prefix.pch";
+				INFOPLIST_FILE = "StubbleTodoTests/StubbleTodoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F7DE37B198EDF7800F36CA8 /* Build configuration list for PBXProject "StubbleTodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F7DE3B3198EDF7800F36CA8 /* Debug */,
+				2F7DE3B4198EDF7800F36CA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F7DE3B5198EDF7800F36CA8 /* Build configuration list for PBXNativeTarget "StubbleTodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F7DE3B6198EDF7800F36CA8 /* Debug */,
+				2F7DE3B7198EDF7800F36CA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F7DE3B8198EDF7800F36CA8 /* Build configuration list for PBXNativeTarget "StubbleTodoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F7DE3B9198EDF7800F36CA8 /* Debug */,
+				2F7DE3BA198EDF7800F36CA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F7DE378198EDF7800F36CA8 /* Project object */;
+}
